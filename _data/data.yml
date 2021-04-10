@@ -3,189 +3,179 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Yu-Chi (Ashley) Chen
+    tagline: Financial engineer / Actuarial analyst 
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: yuchicc2@illinois.edu
+    phone: (206) 313-6674
+    website: #do not add http://
+    linkedin: yu-chi-chen-ashley
+    xing: 
+    github: ashleychen0213
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Mandarin Chinese
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+    # interests:
+    #   - item:
+    #     link:
 
-    interests:
-      - item: Climbing
-        link:
+    #   - item:
+    #     link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+    #   - item:
+    #     link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I earned my master’s degree in financial engineering and my bachelor’s degree 
+      in actuarial science, both at the University of Illinois at Urbana-Champaign. 
+      I have passed three actuarial exams, including Exam P, Exam FM, and Exam IFM, 
+      and I am currently pursuing to attain the Associate of the Society of Actuaries. 
+      With my academic background and internship experience, I've developed my programming 
+      skills in Excel VBA, SQL, MATLAB, Python, R, and C++. 
+      You can [download this my resume here]().
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Master of Science in Financial Engineering
+      hyperlink: https://msfe.illinois.edu/
+      university: University of Illinois at Urbana-Champaign
+      time: Aug 2019 – Dec 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Courses: 
+          - Machine Learning in Fin Lab (Python)
+          - Risk Management
+          - Optimization in Finance
+          - Statistical Methods in Finance (R)
+    - degree: Bachelor of Science in Actuarial Science
+      hyperlink: https://math.illinois.edu/academics/actuarial-science
+      university: University of Illinois at Urbana-Champaign
+      time: Jan 2017 – May 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Honors: 
+          - Dean’s List Fall 2018
+          - Dean’s List Spring 2019
+exam:
+    - name: Exam IFM – Investment and Financial Markets
+      time: Passed, Nov 2020
+    - name: Exam FM – Financial Mathematics
+      time: Passed, Aug 2018
+    - name: Exam P – Probability 
+      time: Passed, Jul 2017
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Nan Shan Life Insurance Co., Ltd, Taipei, Taiwan
+      hyperlink: https://www.nanshanlife.com.tw/PublicWeb/AboutEN/AboutEN.html
+      time: Jun 2020 – Aug 2020
+      company: Intern in Investment-Linked Product Development Department
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          - Built stochastic model and implemented Monte Carlo Simulation method to predict 1,000 possible future account values in order to price Guaranteed Minimum Death Benefit (GMDB) and Guaranteed Minimum Maturity Benefit (GMMB) products
+          - Conducted sensitivity analysis on how 1% change in assumptions, such as expected return and volatility, would affect the value of the guarantees in variable annuity products
+          - Provided a 15-minute individual presentation on the final project regarding of guarantees in variable annuity products in front of the vice president and 6 managers from different actuarial departments
+          - Compared 5 variable annuity products from different countries based on their benefits and charges, which helped sb design products offering more options for the policyholders
+          - Researched on how COVID-19 affects the market and profit/loss on guaranteed products using 6-month of historical data on 5 different indices and insurance companies’ quarterly financial reports
+    - role: Cathay Life Insurance Co., Ltd, Taipei, Taiwan
+      hyperlink: https://www.cathaylife.com.tw/website/PFWeb/html/eng/about_company_profile.html
+      time: Jun 2019 – Aug 2019
+      company: Intern in Product Development Department
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+          - Designed a new life insurance for fetus which provides coverage on 45 congenital major diseases and 5 mental diseases, while mental disease had never been considered in life insurance policies in Taiwan
+          - Assisted in building and generating pricing model using Excel for several health insurance policies
+          - Analyzed the demand and the costs for palliative care at home, and provided 3 different solutions on how the original policy may be changed to benefit the policyholders
+    - role: RCM Alternatives, Ltd, Chicago, IL, USA
+      hyperlink: https://www.rcmalternatives.com/
+      time: Aug 2020 – Dec 2020
+      company: Internship on Trading at Settlement (TAS) and Underlying Futures Contracts Project
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Analyzed the relationship between TAS and underlying crude oil futures contracts using 12-month trading data and wrote technical documentation
+          - Used Python to build a model predicting price change of underlying crude oil futures contracts from the trading volume of TAS contracts within 1-minute, 5-minute, and 10-minute intervals
+          - Visualized the distributions of order imbalance of 100-tick buckets and bid-ask spreads during the settlement period in order to select significant features to predict the trading volume of crude oil futures
+    - role: Prof. Mark Smith, Illinois Risk Lab, Champaing, IL, USA 
+      hyperlink: https://math.illinois.edu/taxonomy/term/14
+      time: Aug 2017 – Dec 2017
+      company: Member of Practical Implementation of Optimal Reinsurance under Distortion Risk Measures Project
+      details: |
+          - Studied 4 reference papers to have a better understanding of risk and reinsurance contracts, especially focusing on stop-loss, quota-share, and change-loss functions
+          - Used MATLAB to conduct numerical analysis to discover how certain criteria affect the optimal solution
 projects:
-    title: Projects
+    title: LEADERSHIP
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Team Leader of Business Innovation Competition in Nan Shan Life Insurance Co., Ltd
+        tagline: "Led 7 team members brainstorming on how Artificial Intelligence and blockchain could help accelerate the process of underwriting and claim settlement, and won the 2nd prize of the competition"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: UIUC Taiwan Student Association
+        tagline: ""
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: R
         level: 98%
 
-      - name: Angular
+      - name: Advanced Excel
+        level: 98%
+      
+      - name: Microsoft Office
         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name:  Bloomberg
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name:  SQL
+        level: 85%
+      
+      - name:  Matlab
+        level: 85%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name:  C++
+        level: 85%
+      
+      - name: Latex
+        level: 85%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
